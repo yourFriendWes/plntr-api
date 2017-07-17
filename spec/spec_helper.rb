@@ -8,6 +8,7 @@ require 'pry'
 require 'zipcode'
 require 'zone'
 require 'plant'
+require 'schedule'
 
 RSpec.configure do |config|
   config.after(:each) do
@@ -19,6 +20,9 @@ RSpec.configure do |config|
     end
     Plant.all.each do |plant|
       plant.destroy()
+    end
+    Schedule.all.each do |schedule|
+      schedule.destroy()
     end
   end
 end
