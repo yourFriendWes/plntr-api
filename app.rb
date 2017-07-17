@@ -1,6 +1,7 @@
 require("bundler/setup")
 Bundler.require(:default)
-Dir[File.dirname(__FILE__) + '/lib/*.rb'].each { |file| require file }
+
+Dir[File.dirname(__FILE__) + '/app/models/*.rb'].each { |file| require file }
 
 before do
   content_type 'application/json'

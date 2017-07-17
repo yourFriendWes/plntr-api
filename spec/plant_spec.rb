@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Plant do
-  it "has many plantitems" do
+  it "has many schedules" do
   end
 
   it "requires a type" do

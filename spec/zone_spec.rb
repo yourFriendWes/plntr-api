@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Zone do
-  it "has many plantitems" do
+  it "has many schedules" do
   end
 
   it "requires a main_zone" do
