@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170717030522) do
+ActiveRecord::Schema.define(version: 20170717041956) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,6 +21,15 @@ ActiveRecord::Schema.define(version: 20170717030522) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "temp_range"
+  end
+
+  create_table "zones", force: :cascade do |t|
+    t.string "main_zone"
+    t.string "lowest_avg_temp_from"
+    t.string "lowest_avg_temp_to"
+    t.text "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
