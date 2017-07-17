@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170717045601) do
+ActiveRecord::Schema.define(version: 20170717052758) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -27,6 +27,17 @@ ActiveRecord::Schema.define(version: 20170717045601) do
     t.string "row_spacing"
     t.string "plant_spacing"
     t.text "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "schedules", force: :cascade do |t|
+    t.integer "zone_id"
+    t.integer "plant_id"
+    t.string "start_seed_indoors"
+    t.string "plant_outdoors"
+    t.string "spring_planting"
+    t.string "fall_planting"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

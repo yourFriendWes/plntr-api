@@ -1,5 +1,6 @@
 class Plant < ActiveRecord::Base
   has_many :plantitems
+  has_many :zones, through: :plantitems
 
   validates_inclusion_of :type, :in => ["vegetable", "herb"], :allow_nil => false
   validates :name, presence: true, :uniqueness => {:case_sensitive => false}
