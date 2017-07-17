@@ -20,5 +20,8 @@ RSpec.configure do |config|
     Schedule.all.each do |schedule|
       schedule.destroy()
     end
+    Companion.all.each do |companion|
+      companion.destroy()
+    end
   end
 end
