@@ -16,5 +16,8 @@ RSpec.configure do |config|
     Zone.all.each do |zone|
       zone.destroy()
     end
+    Plant.all.each do |plant|
+      plant.destroy()
+    end
   end
 end
