@@ -1,5 +1,6 @@
 class Plant < ActiveRecord::Base
   has_many :schedules, dependent: :destroy
+  has_many :zones, through: :schedules
   has_many :companions, dependent: :destroy
 
   validates_inclusion_of :plant_type, :in => ["Vegetable", "Herb"], :allow_nil => false

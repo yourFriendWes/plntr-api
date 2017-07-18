@@ -1,0 +1,36 @@
+Plant,Good Companions,Bad Companions
+Asparagus,"Basil, Beets, Lettuce, Parsley, Spinach, Tomatoes",
+"Bean, bush","Broccoli, Cabbage, Carrots, Cauliflower, Celery, Corn, Cucumbers, Eggplant, Peas, Potatoes, Radishes, Squash, Strawberries, Tomatoes, Summer savory","Garlic, Onions, Peppers, Sunflowers"
+"Bean, pole","Broccoli, Carrots, Cauliflower, Celery, Corn, Cucumbers, Eggplant, Peas, Potatoes, Radishes, Squash, Strawberries, Tomatoes, Summer savory","Onions, Garlic, Peppers, Sunflowers, beets, Kohlrabi, Cabbage"
+Beet,"Onions, Kohlrabi, Asparagus, Broccoli, Cauliflower, Lettuce","Musard, Pole beans"
+Broccoli,"Aromatic plants, Bean, potatoes, celery, cucumbers, dill, hyssop, chamomile, sage, peppermint, rosemary, beets, onions","Stawberries, tomatoes, pole beans, Cabbage, Cauliflower, Lettuce"
+Brussels Sprout,"Dill, Lettuce, Radishes, Sage, Spinach,Turnips",Tomatoes
+Cabbage,"Beans, Celery, Cucumbers, Dill, Kale, Lettuce, Onions, Potatoes, Sage, Spinach, Thyme","Broccoli, Cauliflower, Strawberries, Tomatoes"
+Cauliflower,"Beans, Beets, Celery, Cucumbers, Sage, Thyme","Broccoli, Cabbage, Strawberries, Tomatoes, pole beans"
+Kale,"Cabbage, Dill, Potatoes, Rosemary, Sage","Stawberries, tomatoes, pole beans"
+Kohlrabi,"Aromatic plants, potatoes, celery, dill, hyssop, chamomile, sage, peppermint, rosemary, beets, onions","Stawberries, tomatoes, pole beans"
+Carrot,"Beans, Peas, leaf lettuce, chives, onions, leeks, rosemary, sage, tomatoes, radishes","Dill, Parsley"
+Celery,"Beans, Broccoli, Cabbage, Cauliflower, Leeks, Spinach,Tomatoes",
+Chives,"Carrots, tomatoes","Peas, beans"
+Corn,"Potatoes, peas, beans, cucumbers, melons, pumpkins, squash",Tomato
+Cucumber,"Beans, Broccoli, Cabbage, Cauliflower, corn, peas, radishes, sunflowers, lettuce","Potatoes, aromatice herbs, melons"
+Eggplant,"Basil, Beans, Lettuce, Peas, Potatoes, Spinach
+",
+Leek,"Onions, celery, carrots",
+"Lettuce, Leaf","Asparagus, Beets, Brussels, Cabbage, Carrots, Corn, Cucumbers, Eggplant, Onions, Peas, Potatoes, Radishes, Spinach, Strawberries, Sunflowers, Tomatoes
+",Broccoli
+"Lettuce, Head","Asparagus, Beets, Brussels, Cabbage, Carrots, Corn, Cucumbers, Eggplant, Onions, Peas, Potatoes, Radishes, Spinach, Strawberries, Sunflowers, Tomatoes
+",Broccoli
+Watermelon,"Corn, Nasturtium, Radish, Peas, Sunflowers, Tomatoes","Cucumbers, Potatoes"
+Onion,"Beets, strawberries, tomatoes, lettuce, summer savory, leeks,chamomile (sparsely), pepper","Peas, beans"
+Parsley,"Tomatoes, asparagus",
+Peas,"Beans, Carrots, Corn, Cucumbers, Eggplant, Lettuce, Watermelons, Parsnips, Potatoes, Radishes, Spinach, Turnips","onions, garlic, gladilus, potatoes, chives"
+Potato,"Beans, Broccoli, Cabbage, Corn, Eggplant, Garlic, Kale, Lettuce, Onions, Peas, Radishes","Cucumbers, Melons, Squash, Sunflowers, Tomatoes, Turnips"
+Pepper,"Basil, Coriander, Onions, Spinach, Tomatoes",Beans
+Pumpkin,Corn,Potatoes
+Radish,"Peas, nasturtiums, lettuce, melons, cucumbers",Hyssop
+Spinach,"Asparagus, Brussels, Cabbage, Celery, Dill, Eggplant, Lettuce, Onions, Peas, Peppers, Radishes, Strawberries, Tomatoes
+",
+"Squash, summer","Nasturtiums, corn",Potatoes
+"Squash, winter","Nasturtiums, corn",Potatoes
+Tomato,"Chives, onions, parsley, asparagus, marigolds, nasturtiums, carrots","Broccoli, Brussels, Cabbage, Cauliflower, Corn, Kale, Potatoes"

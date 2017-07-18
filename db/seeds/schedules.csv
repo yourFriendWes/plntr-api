@@ -1,0 +1,441 @@
+zone_id,plant_id,start_seed_indoors,plant_outdoors,spring_planting,fall_planting
+1,"Artichoke, globe",Crown pieces,,May-June,August-October
+1,Asparagus,1 year,March-April,,
+1,Beet,,March-June,,
+1,Broccoli,6 weeks prior to planting,May-June,,
+1,Brussels Sprout,6 weeks prior to planting,May-June,,
+1,Cabbage,6 weeks prior to planting,"
+",January-April,July-September
+1,Carrot,,January-June,,
+1,Cauliflower,6 weeks prior to planting,,January,June
+1,Celery,9 weeks prior to planting,March-June,,
+1,"Chard, swiss",,February-May,,
+1,"Cabbage, Chinese",4 weeks prior to planting,July-August,,
+1,Chives,6 weeks prior to planting,April-May,,
+1,Corn,,April-May,,
+1,Cucumber,4 weeks prior to planting,April-June,,
+1,"Cucumber
+(pickling)",4 weeks prior to planting,May,,
+1,Dill,,May,,
+1,Endive,6 weeks prior to planting,March-July,,
+1,Garlic,,September-October,,
+1,Kale,,May-July,,
+1,Kohlrabi,,July-August,,
+1,Leek,,February-April,,
+1,"Lettuce, head",5 weeks prior to planting,February-July,,
+1,"Lettuce, leaf",5 weeks prior to planting,February-August,,
+1,Onion,10 weeks prior to planting,January-May,,
+1,Parsley,10 weeks prior to planting,December-May,,
+1,Parsnip,,May-June,,
+1,Peas,,January-August,,
+1,Pepper,10 weeks prior to planting,May,,
+1,Potato,,February-May,,
+1,Pumpkin,4 weeks prior to planting,May,,
+1,Radish,,January-December,,
+1,Rhubarb,Crown pieces,December-January,,
+1,Rutabaga,,June-July,,
+1,Spinach,,August-February,,
+1,"Squash, summer",4 weeks prior to planting,May,,
+1,"Squash, winter",4 weeks prior to planting,May,,
+1,Tomato,8 weeks prior to planting,May-June,,
+1,Turnip,,,January,August
+2,"Artichoke, globe",Crown pieces,,April-June,August-November
+2,Asparagus,1 year,February-March,,
+2,"Bean, lima",,May-June,,
+2,"Bean, snap",,May-July,,
+2,Beet,,March-June,,
+2,Broccoli,6 weeks prior to planting,March-August,,
+2,Brussels Sprout,6 weeks prior to planting,May-July,,
+2,Cabbage,6 weeks prior to planting,April-June,,
+2,Cantaloupe,4 weeks prior to planting,May,,
+2,Carrot,,March-July 15,,
+2,Cauliflower,6 weeks prior to planting,April-July 15,,
+2,Celery,9 weeks prior to planting,March-July,,
+2,"Chard, swiss",,April-July,,
+2,"Cabbage, Chinese",4 weeks prior to planting,August,,
+2,Chives,6 weeks prior to planting,March-May,,
+2,Corn,,April-June,,
+2,Cucumber,4 weeks prior to planting,May-June,,
+2,"Cucumber
+(pickling)",4 weeks prior to planting,May-June,,
+2,Dill,,May,,
+2,Eggplant,9 weeks prior to planting,May,,
+2,Endive,6 weeks prior to planting,April-August 15,,
+2,Garlic,,September-February,,
+2,Kale,,May-July,,
+2,Kohlrabi,,April-August 15,,
+2,Leek,,March-May,,
+2,"Lettuce, head",5 weeks prior to planting,April-July,,
+2,"Lettuce, leaf",5 weeks prior to planting,April-August,,
+2,Onion,10 weeks prior to planting,March-May,,
+2,Parsley,10 weeks prior to planting,March-June,,
+2,Parsnip,,April-May,,
+2,Peas,,February-May,,
+2,Pepper,10 weeks prior to planting,May-June,,
+2,Potato,,April-June,,
+2,Pumpkin,4 weeks prior to planting,May,,
+2,Radish,,March-September,,
+2,Rhubarb,Crown pieces,March-April,,
+2,Rutabaga,,June-July,,
+2,Spinach,,,April,September
+2,"Squash, summer",4 weeks prior to planting,May-June,,
+2,"Squash, winter",4 weeks prior to planting,May,,
+2,Tomato,8 weeks prior to planting,May,,
+2,Turnip,,April-September,,
+2,Watermelon,4 weeks prior to planting,May,,
+3,Asparagus,,April 15-May 1,,
+3,"Bean, bush",,May 15-July 1,,
+3,"Bean, pole",,May 15-July 1,,
+3,"Bean, dry shell",,May 15,,
+3,"Bean, lima",,May 15-June 10,,
+3,Beet,,April 15-July 1,,
+3,Broccoli,March 1-15,,April 15,June 1
+3,Brussels Sprout,March 1-15,,April 15,June 1
+3,Cabbage,March 1-15,April-May,,
+3,"Cabbage, late",April 15-May 1,June 1,,
+3,"Cabbage, Chinese",,July 1,,
+3,Carrot,,April 15-June 15,,
+3,Cauliflower,March 1-15,April 15 or June 1,,
+3,Celery,February 15-March 1,May 15,,
+3,"Chard, swiss, Swiss",,May 1,,
+3,Collard,,April 15,,
+3,Cucumber,,May 1-June 15,,
+3,Eggplant,March 15-April 1,June 1,,
+3,Endive,,April 15,,
+3,Garlic,,October 1-November 1,,
+3,Horseradish,,April 15-May 1,,
+3,Kale,,April 15-July 15,,
+3,Kohlrabi,,,April 15-June 1,August 1-15
+3,"Lettuce, leaf",,,April 15-June 1,August 1-15
+3,"Lettuce, head",March 1-15,April 15-May 1,,
+3,Muskmelon,,May 15-June 1,,
+3,Okra,March 15-April 1,June 1,,
+3,Onion seeds,,April 15,,
+3,Onion,February 1-15,April 15,,
+3,"Onion, sets",,April 15,,
+3,Parsley,,April 15-May 1,,
+3,Parsnip,,May 1-15,,
+3,Peas,,April 10-May 15,,
+3,Pepper,March 15-April 1,June 1,,
+3,Potato,,April 15-June 1,,
+3,Sweet Potato,April 15 (roots),June 1,,
+3,Pumpkin,,May 10-June 1,,
+3,Radish,,,April 10-June 1,August 1-15
+3,Rhubarb,,April 15-May 1,,
+3,Rutabaga,,May 15-June 15,,
+3,Spinach,,,April 15,August 1-15
+3,"Squash, summer",,May 10-June 1,,
+3,"Squash, winter",,May 10-June 1,,
+3,Corn,,May 10-July 1,,
+3,Tomato,April 1-15,May 15-June 1,,
+3,Turnip,,,April 15,August 1
+3,Watermelon,,May 15-June 1,,
+4,Asparagus,,April 15-May 1,,
+4,"Bean, bush",,May 15-July 1,,
+4,"Bean, pole",,May 15-July 1,,
+4,"Bean, dry shell",,May 15,,
+4,"Bean, lima",,May 15-June 10,,
+4,Beet,,April 15-July 1,,
+4,Broccoli,March 1-15,,April 15,June 1
+4,Brussels Sprout,March 1-15,,April 15,June 1
+4,Cabbage,March 1-15,April-May,,
+4,"Cabbage, late",April 15-May 1,June 1,,
+4,"Cabbage, Chinese",,July 1,,
+4,Carrot,,April 15-June 15,,
+4,Cauliflower,March 1-15,April 15 or June 1,,
+4,Celery,February 15-March 1,May 15,,
+4,"Chard, swiss, Swiss",,May 1,,
+4,Collard,,April 15,,
+4,Cucumber,,May 1-June 15,,
+4,Eggplant,March 15-April 1,June 1,,
+4,Endive,,April 15,,
+4,Garlic,,October 1-November 1,,
+4,Horseradish,,April 15-May 1,,
+4,Kale,,April 15-July 15,,
+4,Kohlrabi,,,April 15-June 1,August 1-15
+4,"Lettuce, leaf",,,April 15-June 1,August 1-15
+4,"Lettuce, head",March 1-15,April 15-May 1,,
+4,Muskmelon,,May 15-June 1,,
+4,Okra,March 15-April 1,June 1,,
+4,Onion seeds,,April 15,,
+4,Onion,February 1-15,April 15,,
+4,"Onion, sets",,April 15,,
+4,Parsley,,April 15-May 1,,
+4,Parsnip,,May 1-15,,
+4,Peas,,April 10-May 15,,
+4,Pepper,March 15-April 1,June 1,,
+4,Potato,,April 15-June 1,,
+4,Sweet Potato,April 15 (roots),June 1,,
+4,Pumpkin,,May 10-June 1,,
+4,Radish,,,April 10-June 1,August 1-15
+4,Rhubarb,,April 15-May 1,,
+4,Rutabaga,,May 15-June 15,,
+4,Spinach,,,April 15,August 1-15
+4,"Squash, summer",,May 10-June 1,,
+4,"Squash, winter",,May 10-June 1,,
+4,Corn,,May 10-July 1,,
+4,Tomato,April 1-15,May 15-June 1,,
+4,Turnip,,,April 15,August 1
+4,Watermelon,,May 15-June 1,,
+5,Asparagus,,April 5-25,,
+5,"Bean, bush",,,April 25-May 30,July 25-August 5
+5,"Bean, pole",,May 10-20,,
+5,"Bean, lima",,May 10 -25,,
+5,Beet,,,April 1-15,August 1-September 25
+5,Broccoli,,,March 25-April 5,September 25-30
+5,Cabbage,,,April 1-20,September 20 -30
+5,Cantaloupe,,May 10-20,,
+5,Carrot,,,March 25-April 10,September 20 -30
+5,Cauliflower,,,April 1-20,September 20-30
+5,Collard,,March 20-April 10,,
+5,Corn,,May 1-July 20,,
+5,Cucumber,,May 10-30,,
+5,Eggplant,,May 15-25,,
+5,Kale,,March 25-April 5,,
+5,Kohlrabi,,,April 1-15,September 20-25
+5,"Lettuce, leaf",,,April 1-May 15,September 1-15
+5,Mustard,,,March 25-May 1,August 1-30
+5,Okra,,May 10-25,,
+5,Onion,,,March 25-April 15,September 1-December 31
+5,"Peas, garden",,March 25-April 10,,
+5,Peas,,May 1-15,,
+5,Pepper,,May 15-30,,
+5,Potato,,April 1-15,,
+5,Sweet Potato,,May 15-June 5,,
+5,Radish,,,March 25-May 1,August 1- 20
+5,Spinach,,,April 1-20,August 10-September 20
+5,"Squash, bush",,May 15-30,,
+5,"Squash, winter",,May 15-30,,
+5,Tomato,,May 15-30,,
+5,Turnip,,,March 25-May 1,August 5-September 20
+5,Watermelon,,May 10-20,,
+6,Asparagus,,April 5-25,,
+6,"Bean, bush",,,April 25-May 30,July 25-August 5
+6,"Bean, pole",,May 10-20,,
+6,"Bean, lima",,May 10 -25,,
+6,Beet,,,April 1-15,August 1-September 25
+6,Broccoli,,,March 25-April 5,September 25-30
+6,Cabbage,,,April 1-20,September 20 -30
+6,Cantaloupe,,May 10-20,,
+6,Carrot,,,March 25-April 10,September 20 -30
+6,Cauliflower,,,April 1-20,September 20-30
+6,Collard,,March 20-April 10,,
+6,Corn,,May 1-July 20,,
+6,Cucumber,,May 10-30,,
+6,Eggplant,,May 15-25,,
+6,Kale,,March 25-April 5,,
+6,Kohlrabi,,,April 1-15,September 20-25
+6,"Lettuce, leaf",,,April 1-May 15,September 1-15
+6,Mustard,,,March 25-May 1,August 1-30
+6,Okra,,May 10-25,,
+6,Onion,,,March 25-April 15,September 1-December 31
+6,"Peas, garden",,March 25-April 10,,
+6,Peas,,May 1-15,,
+6,Pepper,,May 15-30,,
+6,Potato,,April 1-15,,
+6,Sweet Potato,,May 15-June 5,,
+6,Radish,,,March 25-May 1,August 1- 20
+6,Spinach,,,April 1-20,August 10-September 20
+6,"Squash, bush",,May 15-30,,
+6,"Squash, winter",,May 15-30,,
+6,Tomato,,May 15-30,,
+6,Turnip,,,March 25-May 1,August 5-September 20
+6,Watermelon,,May 10-20,,
+7,Asparagus,,,January 15-March 15,November-December
+7,"Bean, bush",,,April 1-May 1,July 15-August 20
+7,"Bean, pole",,,April 1-May 1,July 15-August 10
+7,"Bean, lima",,,April 1-June 1,July 1-August 1
+7,Beet,,,February 15-April 1,August 1-September 20
+7,Broccoli,,,February 15-March 15,August 1-September 1
+7,Cabbage,,,January 15-March 15,August 15-October 1
+7,Cantaloupe,,March 25-April 20,,
+7,Carrot,,,January 15-March 20,August 20-September 15
+7,Cauliflower,,,March 1-April 1,August 1-September 1
+7,Collard,,,February 1-March 20,August 1-October 1
+7,Corn,,,March 15-June 1,June 1-July 20
+7,Cucumber,,,April 1-May 15,August 20-September 1
+7,Eggplant,,,April 1-May 15,July 10-15
+7,Kale,,,February 1-March 10,August 10-30
+7,"Lettuce, leaf",,,January 15-March 1,September 1-October 1
+7,Mustard,,,January 15-April 1,August 20-October 1
+7,Okra,,,April 1-June 1,June 15-July 1
+7,Onion,,,January 1-March 15,September 1-December 31
+7,"Peas, garden",,January 15-February 15,,
+7,Peas,,April 1-August 1,,
+7,Pepper,,April 1-June 1,,
+7,Potato,,,January 15-March 1,August 1-August 15
+7,Sweet Potato,,April 15-June 15,,
+7,Radish,,,January 15-April 1,September 1-October 15
+7,Spinach,,,January 15-March 15,September 1-October 15
+7,"Squash, bush",,,April 1-May 15,August 1-20
+7,"Squash, winter",,April 1-August 1,,
+7,Tomato,,,March 25-May 1,June 1-August 10
+7,Turnip,,,January 15-April 1,August 10-September 15
+7,Watermelon,,March 20-May 1,,
+8,Asparagus,,,January 15-March 15,November-December
+8,"Bean, bush",,,April 1-May 1,July 15-August 20
+8,"Bean, pole",,,April 1-May 1,July 15-August 10
+8,"Bean, lima",,,April 1-June 1,July 1-August 1
+8,Beet,,,February 15-April 1,August 1-September 20
+8,Broccoli,,,February 15-March 15,August 1-September 1
+8,Cabbage,,,January 15-March 15,August 15-October 1
+8,Cantaloupe,,March 25-April 20,,
+8,Carrot,,,January 15-March 20,August 20-September 15
+8,Cauliflower,,,March 1-April 1,August 1-September 1
+8,Collard,,,February 1-March 20,August 1-October 1
+8,Corn,,,March 15-June 1,June 1-July 20
+8,Cucumber,,,April 1-May 15,August 20-September 1
+8,Eggplant,,,April 1-May 15,July 10-15
+8,Kale,,,February 1-March 10,August 10-30
+8,"Lettuce, leaf",,,January 15-March 1,September 1-October 1
+8,Mustard,,,January 15-April 1,August 20-October 1
+8,Okra,,,April 1-June 1,June 15-July 1
+8,Onion,,,January 1-March 15,September 1-December 31
+8,"Peas, garden",,January 15-February 15,,
+8,Peas,,April 1-August 1,,
+8,Pepper,,April 1-June 1,,
+8,Potato,,,January 15-March 1,August 1-August 15
+8,Sweet Potato,,April 15-June 15,,
+8,Radish,,,January 15-April 1,September 1-October 15
+8,Spinach,,,January 15-March 15,September 1-October 15
+8,"Squash, bush",,,April 1-May 15,August 1-20
+8,"Squash, winter",,April 1-August 1,,
+8,Tomato,,,March 25-May 1,June 1-August 10
+8,Turnip,,,January 15-April 1,August 10-September 15
+8,Watermelon,,March 20-May 1,,
+9,"Bean, bush",,,March-April,August-September
+9,"Bean, pole",,,March-April,August-September
+9,"Bean, lima",,March-August,,
+9,Cantaloupe,,March-April,,
+9,Corn,,,March-April,August
+9,Cucumber,,,February-April,August-September
+9,Eggplant,,February-July,,
+9,Okra,,March-July,,
+9,Peas,,March-August,,
+9,Pepper,,,February-April,July-August
+9,Sweet Potato,,March-June,,
+9,Pumpkin,,,March-April,August
+9,"Squash, Summer",,,March-April,August-September
+9,"Squash, winter",,,March,August
+9,"Tomato, Stake",,,February-April,August
+9,Tomato,,,February-April,August
+9,"Tomato, Container",,,February-April,August
+9,Watermelon,,,March-April,July-August
+9,"Watermelon, Small",,,March-April,July-August
+9,"Watermelon, Seedless",,,March-April,July-August
+9,Beet,,September-March,,
+9,Broccoli,,August-February,,
+9,Brussels Sprout,,September-November,,
+9,Cabbage,,September-February,,
+9,Carrot,,September-March,,
+9,Cauliflower,,"January-February
+August-October",,
+9,Celery,,January-March,,
+9,"Cabbage, Chinese",,October-February,,
+9,Collard,,,February-April,August-November
+9,Endive,,,February-March,September
+9,Kale,,September-February,,
+9,Kohlrabi,,September-March,,
+9,Leek,,September-March,,
+9,"Lettuce, leaf",,,February-March,September-October
+9,Mustard,,September-May,,
+9,Onion,,September-December,,
+9,"Onion, Bunching",,August-March,,
+9,"Onion, Multipliers",,August-March,,
+9,Parsley,,September-March,,
+9,Peas,,January-March,,
+9,Potato,,January-March,,
+9,Radish,,September-March,,
+9,Spinach,,October-November,,
+9,Strawberry,,October-November,,
+9,Turnip,,,January-April,August-October
+10,"Bean, bush",,,February-April,September
+10,"Bean, pole",,,February-April,August-September
+10,"Bean, lima",,,February-April,September
+10,Cantaloupe,,February-April,,
+10,Corn,,,February-March,August-September
+10,Cucumber,,,February-March,September
+10,Eggplant,,,January-March,August-September
+10,Okra,,March-August,,
+10,Peas,,March-September,,
+10,Pepper,,,January-March,August-September
+10,Sweet Potato,,February-June,,
+10,Pumpkin,,,February-March,August
+10,"Squash, Summer",,,February-March,August-September
+10,"Squash, winter",,,February-March,August
+10,"Tomato, Stake",,,January-March,September
+10,Tomato,,,January-March,September
+10,"Tomato, Container",,,January-March,September
+10,Watermelon,,,January-March,August
+10,"Watermelon, Small",,,January-March,August
+10,"Watermelon, Seedless",,,January-March,August
+10,Beet,,October-March,,
+10,Broccoli,,August-January,,
+10,Brussels Sprout,,October-November,,
+10,Cabbage,,September-January,,
+10,Carrot,,October-March,,
+10,Cauliflower,,October-January,,
+10,Celery,,August-February,,
+10,"Cabbage, Chinese",,October-January,,
+10,Collard,,August-March,,
+10,Endive,,,January-February,September
+10,Kale,,September-January,,
+10,Kohlrabi,,October-March,,
+10,Leek,,September-February,,
+10,"Lettuce, leaf",,September-March,,
+10,Mustard,,September-March,,
+10,Onion,,September-December,,
+10,"Onion, Bunching",,August-March,,
+10,"Onion, Multipliers",,August-March,,
+10,Parsley,,October-February,,
+10,Peas,,September-March,,
+10,Potato,,January-February,,
+10,Radish,,September-March,,
+10,Spinach,,October-November,,
+10,Strawberry,,October-November,,
+10,Turnip,,,January-March,September-November
+11,"Bean, bush",,September-April,,
+11,"Bean, pole",,August-April,,
+11,"Bean, lima",,August-April,,
+11,Cantaloupe,,,August-September,February-March
+11,Corn,,August-March,,
+11,Cucumber,,September-March,,
+11,Eggplant,,,December-February,August-October
+11,Okra,,August-September,,
+11,Peas,,August-April,,
+11,Pepper,,August-March,,
+11,Sweet Potato,,February-June,,
+11,Pumpkin,,,January-February,August-September
+11,"Squash, Summer",,,January-March,September-October
+11,"Squash, winter",,,January-February,September
+11,"Tomato, Stake",,August-March,,
+11,Tomato,,August-March,,
+11,"Tomato, Container",,August-March,,
+11,Watermelon,,,January-March,August-September
+11,"Watermelon, Small",,,January-March,August-September
+11,"Watermelon, Seedless",,,January-March,August-September
+11,Beet,,October-February,,
+11,Broccoli,,September-January,,
+11,Brussels Sprout,,October-December,,
+11,Cabbage,,September-January,,
+11,Carrot,,October-February,,
+11,Cauliflower,,October-January,,
+11,Celery,,October-January,,
+11,"Cabbage, Chinese",,November-January,,
+11,Collard,,August-February,,
+11,Endive,,September-January,,
+11,Kale,,September-January,,
+11,Kohlrabi,,October-February,,
+11,Leek,,October-January,,
+11,"Lettuce, leaf",,September-January,,
+11,Mustard,,September-March,,
+11,Onion,,September-November,,
+11,"Onion, Bunching",,September-March,,
+11,"Onion, Multipliers",,September-March,,
+11,Parsley,,September-January,,
+11,Peas,,September-February,,
+11,Potato,,September-January,,
+11,Radish,,October-March,,
+11,Spinach,,October-January,,
+11,Strawberry,,October-November,,
+11,Turnip,,October-February,,
