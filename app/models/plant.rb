@@ -2,14 +2,18 @@ class Plant < ActiveRecord::Base
   has_many :schedules, dependent: :destroy
   has_many :companions, dependent: :destroy
 
-  validates_inclusion_of :type, :in => ["vegetable", "herb"], :allow_nil => false
+  validates_inclusion_of :plant_type, :in => ["Vegetable", "Herb"], :allow_nil => false
   validates :name, presence: true, :uniqueness => {:case_sensitive => false}
-  validates_inclusion_of :sun_exposure, :in => ["full sun", "partial sun", "partial shade", "full shade"], :allow_nil => false
-  validates_inclusion_of :soil_ph, :in => ["acidic", "neutral", "alkaline"], :allow_nil => false
-  validates_inclusion_of :soil_type, :in => ["sand", "silt", "clay", "peat", "loam"], :allow_nil => false
-  validates_inclusion_of :soil_drainage, :in => ["well drained", "poorly drained", "average"], :allow_nil => false
-  validates_inclusion_of :water_requirement, :in => ["ample", "average", "draught tolerant", "xeric/desert"], :allow_nil => false
-  validates :depth, presence: true
-  validates :row_spacing, presence: true
-  validates :plant_spacing, presence: true
+  validates :sun_exposure, presence: true
+  validates :soil_ph, presence: true
+  validates :soil_type, presence: true
+  validates :soil_drainage, presence: true
+  validates :water_requirement, presence: true
+  validates :row_spacing, presence: true, unless: :is_herb?
+  validates :plant_spacing, presence: true, unless: :is_herb?
+  validates :description, presence:true, if: :is_herb?
+
+  def is_herb?
+    plant_type == "Herb"
+  end
 end

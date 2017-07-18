@@ -31,3 +31,12 @@ get '/zipcodes/:zip' do |zipcode|
     halt(404, [{ message:'Plant Hardiness Zone Not Found'}].to_json)
   end
 end
+
+get '/zones/:main_zone' do |zipcode|
+  zone = Zone.where(main_zone: params[:main_zone]).first
+  if zone
+    [zone].to_json
+  else
+    halt(404, [{ message: 'Zone Data Not Found'}].to_json)
+  end
+end

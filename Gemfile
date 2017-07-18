@@ -11,4 +11,5 @@ group(:test) do
   gem("rspec")
   gem("shoulda-matchers")
   gem("pry")
+  gem("simplecov")
 end
