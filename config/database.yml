@@ -1,7 +1,16 @@
 development:
-  adapter: postgresql
+  adapter: pg
   database: tre_plntr_development
 
 test:
-  adapter: postgresql
+  adapter: pg
   database: tre_plntr_test
+
+production:
+  adapter: pg
+  encoding: utf8
+  database: <%= ENV['RDS_DB_NAME'] %>
+  username: <%= ENV['RDS_USERNAME'] %>
+  password: <%= ENV['RDS_PASSWORD'] %>
+  host: <%= ENV['RDS_HOSTNAME'] %>
+  port: <%= ENV['RDS_PORT'] %>
