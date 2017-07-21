@@ -13,12 +13,13 @@ get '/' do
 end
 
 get '/zipcodes' do
-  zipcodes = Zipcode.all
   if params[:page]
     halt(404, [{ message:'Invalid Page Query'}].to_json) if (params[:page] !~ /^\d+$/ || params[:page].to_i < 1)
-    zipcodes = Zipcode.all.offset(100 * (params[:page].to_i - 1)).first(100)
+    zipcodes = Zipcode.all.order(:zip).offset(100 * (params[:page].to_i - 1)).first(100)
   elsif params[:zone]
-    params[:zone] == "1" ? zipcodes = Zipcode.where(phzone: ["1a","1b"]) : zipcodes = Zipcode.where("phzone like ?", "#{params[:zone]}%")
+    params[:zone] == "1" ? zipcodes = Zipcode.where(phzone: ["1a","1b"]).order(:zip) : zipcodes = Zipcode.where("phzone like ?", "#{params[:zone]}%").order(:zip)
+  else
+    zipcodes = Zipcode.all.order(:zip)
   end
   zipcodes.to_json
 end
@@ -42,8 +43,7 @@ get '/zones/:main_zone' do
 end
 
 get '/plants' do
-
-  plants = Plant.all
+  plants = Plant.all.order(:name)
 
   if params[:name]
     temp_plants = Plant.where("name like ?", "#{params[:name].titleize}%")
@@ -78,7 +78,7 @@ get '/plants' do
   if params[:zone]
     zone = Zone.find(params[:zone].to_i)
     if zone
-      temp_plants = zone.plants
+      temp_plants = zone.plants.order(:name)
       plants = plants & temp_plants
     else
       halt(404, [{ message: 'Plant Data Not Found'}].to_json)
