@@ -98,3 +98,15 @@ get '/plants/:id' do
     halt(404, [{ message: 'Plant Data Not Found'}].to_json)
   end
 end
+
+get '/schedules' do
+  plant = Plant.where(name: params[:name].titleize).first
+  zone = Zone.where(main_zone: params[:zone]).first
+
+  if plant && zone
+    schedule = Schedule.where(plant_id: plant.id, zone_id: zone.id).first
+    schedule.to_json
+  else
+    halt(404, [{ message: 'Schedule Data Not Found'}].to_json)
+  end
+end
