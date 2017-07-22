@@ -100,8 +100,8 @@ get '/plants/:id' do
 end
 
 get '/schedules' do
-  plant = Plant.where(name: params[:name].titleize).first
-  zone = Zone.where(main_zone: params[:zone]).first
+  plant = Plant.where(name: params[:name].titleize).first if params[:name]
+  zone = Zone.where(main_zone: params[:zone]).first if params[:zone]
 
   if plant && zone
     schedule = Schedule.where(plant_id: plant.id, zone_id: zone.id).first

@@ -51,7 +51,7 @@ puts "#{success_count} out of #{zones.length} successfully added"
 plants = []
 
 CSV.foreach("db/seeds/plant_data.csv", { :headers => true }) do |line|
-  plants << { plant_type: line[0].titleize, name: line[1].titleize, sun_exposure: line[2].titleize, soil_ph: line[3].titleize, soil_type: line[4].titleize, soil_drainage: line[5].titleize, water_requirement: line[6].titleize, row_spacing: line[7], plant_spacing: line[8], depth: line[9], description: line[10].capitalize}
+  plants << { plant_type: line[0].titleize, name: line[1].titleize, sun_exposure: line[2].titleize, soil_ph: line[3].titleize, soil_type: line[4].titleize, soil_drainage: line[5].titleize, water_requirement: line[6].titleize, row_spacing: line[7], plant_spacing: line[8], depth: line[9], img_url: line[10], description: line[11].capitalize, }
 end
 
 success_count = 0
@@ -82,14 +82,13 @@ end
 
 CSV.foreach("db/seeds/schedules.csv", { :headers => true }) do |line|
   temp_plant = get_plant(line[1].titleize)
+
   if temp_plant
     schedules << { zone_id: get_zone_id(line[0]), plant_id: temp_plant.id, start_seed_indoors: line[2], plant_outdoors: line[3], spring_planting: line[4], fall_planting: line[5] }
   else
     bads << { zone_id: get_zone_id(line[0]), plant_id: line[1], start_seed_indoors: line[2], plant_outdoors: line[3], spring_planting: line[4], fall_planting: line[5] }
   end
 end
-
-puts bads
 
 success_count = 0
 
@@ -104,6 +103,7 @@ schedules.each do |schedule|
 end
 
 puts "#{success_count} out of #{schedules.length} successfully added"
+puts bads
 
 # seeding for companions
 companions = []
@@ -116,17 +116,13 @@ bads =[]
 
 CSV.foreach("db/seeds/companion_data.csv", { :headers => true }) do |line|
   temp_plant = get_plant(line[0].titleize)
+
   one = line[1]
   two = line[2]
 
-  if one
-    one = line[1].titleize
+  one = line[1].titleize if one
+  two = line[2].titleize if two
 
-  end
-
-  if two
-    two = line[2].titleize
-  end
 
   if temp_plant
     companions << { plant_id: temp_plant.id, compatible: one, combative: two }
@@ -146,3 +142,4 @@ companions.each do |companion|
 end
 
 puts "#{success_count} out of #{companions.length} successfully added"
+puts bads
