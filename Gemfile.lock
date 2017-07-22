@@ -46,8 +46,6 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.6.0)
     rspec-support (3.6.0)
-    shoulda-matchers (3.1.1)
-      activesupport (>= 4.0.0)
     simplecov (0.14.1)
       docile (~> 1.1.0)
       json (>= 1.8, < 3)
@@ -83,7 +81,6 @@ DEPENDENCIES
   pry
   rake
   rspec
-  shoulda-matchers
   simplecov
   sinatra
   sinatra-activerecord

@@ -4,6 +4,7 @@ class Plant < ActiveRecord::Base
   has_many :companions, dependent: :destroy
 
   validates_inclusion_of :plant_type, :in => ["Vegetable", "Herb"], :allow_nil => false
+  validates :img_url, presence: true
   validates :name, presence: true, :uniqueness => {:case_sensitive => false}
   validates :sun_exposure, presence: true
   validates :soil_ph, presence: true
