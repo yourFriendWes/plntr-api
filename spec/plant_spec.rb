@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 RSpec.describe Plant, type: :model do
-  subject { described_class.new(plant_type: "Vegetable", name:"Artichoke, Globe", sun_exposure: "Full Sun, Partial Sun", soil_ph: "Acidic, Neutral, Alkaline", soil_type: "Clay, Loam", soil_drainage: "Well Drained", water_requirement: "Drought Tolerant, Average", depth: "0.25", row_spacing: "36", plant_spacing: "24", img_url: "https://s3-us-west-2.amazonaws.com/plntr-assets/artichoke.jpg", description: "Artichoke is a handsome herbaceous edible perennial with large gray spined leaves and purple thistle-like flowers in autumn. native to the mediterranean region, artichoke is tender and often best") }
+  subject { described_class.new(plant_type: "Vegetable/Fruit", name:"Artichoke, Globe", sun_exposure: "Full Sun, Partial Sun", soil_ph: "Acidic, Neutral, Alkaline", soil_type: "Clay, Loam", soil_drainage: "Well Drained", water_requirement: "Drought Tolerant, Average", depth: "0.25", row_spacing: "36", plant_spacing: "24", img_url: "https://s3-us-west-2.amazonaws.com/plntr-assets/artichoke.jpg", description: "Artichoke is a handsome herbaceous edible perennial with large gray spined leaves and purple thistle-like flowers in autumn. native to the mediterranean region, artichoke is tender and often best") }
 
   describe "Validations" do
     it "is valid with valid attributes" do
@@ -48,14 +48,11 @@ RSpec.describe Plant, type: :model do
       expect(subject).to_not be_valid
     end
 
-    it "is not valid without an spacing data, unless plant_type is Herb " do
+    it "is not valid without an spacing data" do
       subject.row_spacing = nil
       subject.plant_spacing = nil
       subject.depth = nil
       expect(subject).to_not be_valid
-
-      subject.plant_type = "Herb"
-      expect(subject).to be_valid
     end
   end
 

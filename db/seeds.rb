@@ -71,8 +71,8 @@ puts "#{success_count} out of #{plants.length} successfully added"
 schedules = []
 bads =[]
 
-def get_zone_id(str)
-  Zone.find_by(main_zone: str).id
+def get_zone(str)
+  Zone.find_by(main_zone: str)
 end
 
 def get_plant(str)
@@ -82,11 +82,12 @@ end
 
 CSV.foreach("db/seeds/schedules.csv", { :headers => true }) do |line|
   temp_plant = get_plant(line[1].titleize)
+  temp_zone = get_zone(line[0])
 
-  if temp_plant
-    schedules << { zone_id: get_zone_id(line[0]), plant_id: temp_plant.id, start_seed_indoors: line[2], plant_outdoors: line[3], spring_planting: line[4], fall_planting: line[5] }
+  if temp_plant && temp_zone
+    schedules << { zone_id: temp_zone.id, plant_id: temp_plant.id, start_seed_indoors: line[2], plant_outdoors: line[3], spring_planting: line[4], fall_planting: line[5] }
   else
-    bads << { zone_id: get_zone_id(line[0]), plant_id: line[1], start_seed_indoors: line[2], plant_outdoors: line[3], spring_planting: line[4], fall_planting: line[5] }
+    bads << { zone_id: line[0], plant_id: line[1], start_seed_indoors: line[2], plant_outdoors: line[3], spring_planting: line[4], fall_planting: line[5] }
   end
 end
 

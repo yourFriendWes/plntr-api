@@ -89,24 +89,10 @@ get '/plants' do
 end
 
 get '/plants/:id' do
-  plant = Plant.find(params[:id])
-  company = plant.companions
-  zones = plant.zones
+  plant = Plant.where(id: params[:id]).first
   if plant
-    [plant, {companion_data: company}, {zone_data: zones}].to_json
+    [plant, {companion_data: plant.companions}, {schedule_data: plant.schedules}].to_json
   else
     halt(404, [{ message: 'Plant Data Not Found'}].to_json)
-  end
-end
-
-get '/schedules' do
-  plant = Plant.where(name: params[:name].titleize).first if params[:name]
-  zone = Zone.where(main_zone: params[:zone]).first if params[:zone]
-
-  if plant && zone
-    schedule = Schedule.where(plant_id: plant.id, zone_id: zone.id).first
-    schedule.to_json
-  else
-    halt(404, [{ message: 'Schedule Data Not Found'}].to_json)
   end
 end

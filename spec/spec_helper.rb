@@ -1,6 +1,3 @@
-require 'simplecov'
-SimpleCov.start
-
 ENV['RACK_ENV'] = 'test'
 
 require("bundler/setup")
@@ -9,6 +6,9 @@ Bundler.require(:default, :test)
 set(:root, Dir.pwd())
 
 Dir[File.dirname(__FILE__) + '/../app/models/*.rb'].each { |file| require file }
+
+require 'simplecov'
+SimpleCov.start
 
 RSpec.configure do |config|
   config.after(:each) do
